@@ -54,16 +54,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(44);
+	module.exports = __webpack_require__(7);
 
 
 /***/ },
-/* 1 */,
-/* 2 */,
-/* 3 */,
-/* 4 */,
-/* 5 */,
-/* 6 */
+/* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -74,7 +69,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _Symbol = __webpack_require__(8);
+	var _Symbol = __webpack_require__(2);
 
 	var _Symbol2 = _interopRequireWildcard(_Symbol);
 
@@ -123,8 +118,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.STATE_CONTAINER = STATE_CONTAINER;
 
 /***/ },
-/* 7 */,
-/* 8 */
+/* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -280,7 +274,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 9 */
+/* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -312,17 +306,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 10 */,
-/* 11 */,
-/* 12 */,
-/* 13 */,
-/* 14 */,
-/* 15 */,
-/* 16 */,
-/* 17 */,
-/* 18 */,
-/* 19 */,
-/* 20 */
+/* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -384,28 +368,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 21 */,
-/* 22 */,
-/* 23 */,
-/* 24 */,
-/* 25 */,
-/* 26 */,
-/* 27 */,
-/* 28 */,
-/* 29 */,
-/* 30 */,
-/* 31 */,
-/* 32 */,
-/* 33 */,
-/* 34 */,
-/* 35 */,
-/* 36 */,
-/* 37 */,
-/* 38 */,
-/* 39 */,
-/* 40 */,
-/* 41 */,
-/* 42 */
+/* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -420,7 +383,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _import = __webpack_require__(6);
+	var _import = __webpack_require__(1);
 
 	var Sym = _interopRequireWildcard(_import);
 
@@ -451,7 +414,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 43 */
+/* 6 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -466,19 +429,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _EventEmitter = __webpack_require__(49);
+	var _EventEmitter = __webpack_require__(12);
 
 	var _EventEmitter2 = _interopRequireWildcard(_EventEmitter);
 
-	var _assign = __webpack_require__(9);
+	var _assign = __webpack_require__(3);
 
 	var _assign2 = _interopRequireWildcard(_assign);
 
-	var _Symbol = __webpack_require__(8);
+	var _Symbol = __webpack_require__(2);
 
 	var _Symbol2 = _interopRequireWildcard(_Symbol);
 
-	var _import = __webpack_require__(6);
+	var _import = __webpack_require__(1);
 
 	var Sym = _interopRequireWildcard(_import);
 
@@ -587,7 +550,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 44 */
+/* 7 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -608,23 +571,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _assign = __webpack_require__(9);
+	var _assign = __webpack_require__(3);
 
 	var _assign2 = _interopRequireWildcard(_assign);
 
-	var _Dispatcher = __webpack_require__(50);
+	var _Dispatcher = __webpack_require__(13);
 
-	var _makeAction = __webpack_require__(48);
+	var _makeAction = __webpack_require__(11);
 
 	var _makeAction2 = _interopRequireWildcard(_makeAction);
 
-	var _filterSnapshots$saveInitialSnapshot$setAppState$snapshot = __webpack_require__(45);
+	var _filterSnapshots$saveInitialSnapshot$setAppState$snapshot = __webpack_require__(8);
 
-	var _createStoreConfig$createStoreFromObject$createStoreFromClass$transformStore = __webpack_require__(47);
+	var _createStoreConfig$createStoreFromObject$createStoreFromClass$transformStore = __webpack_require__(10);
 
-	var _ACTION_KEY$ACTIONS_REGISTRY$INIT_SNAPSHOT$LAST_SNAPSHOT$LIFECYCLE = __webpack_require__(6);
+	var _ACTION_KEY$ACTIONS_REGISTRY$INIT_SNAPSHOT$LAST_SNAPSHOT$LIFECYCLE = __webpack_require__(1);
 
-	var _dispatchIdentity$formatAsConstant$getInternalMethods$uid$warn = __webpack_require__(20);
+	var _dispatchIdentity$formatAsConstant$getInternalMethods$uid$warn = __webpack_require__(4);
 
 	var Alt = (function () {
 	  function Alt() {
@@ -882,7 +845,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 45 */
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -897,11 +860,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.saveInitialSnapshot = saveInitialSnapshot;
 	exports.filterSnapshots = filterSnapshots;
 
-	var _assign = __webpack_require__(9);
+	var _assign = __webpack_require__(3);
 
 	var _assign2 = _interopRequireWildcard(_assign);
 
-	var _import = __webpack_require__(6);
+	var _import = __webpack_require__(1);
 
 	var Sym = _interopRequireWildcard(_import);
 
@@ -962,7 +925,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 46 */
+/* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -973,11 +936,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 
-	var _Symbol = __webpack_require__(8);
+	var _Symbol = __webpack_require__(2);
 
 	var _Symbol2 = _interopRequireWildcard(_Symbol);
 
-	var _ACTION_KEY$ALL_LISTENERS$LIFECYCLE$LISTENERS$PUBLIC_METHODS = __webpack_require__(6);
+	var _ACTION_KEY$ALL_LISTENERS$LIFECYCLE$LISTENERS$PUBLIC_METHODS = __webpack_require__(1);
 
 	var StoreMixinEssentials = {
 	  waitFor: function waitFor(sources) {
@@ -1092,7 +1055,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.StoreMixinListeners = StoreMixinListeners;
 
 /***/ },
-/* 47 */
+/* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1115,19 +1078,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.createStoreFromObject = createStoreFromObject;
 	exports.createStoreFromClass = createStoreFromClass;
 
-	var _assign = __webpack_require__(9);
+	var _assign = __webpack_require__(3);
 
 	var _assign2 = _interopRequireWildcard(_assign);
 
-	var _AltStore = __webpack_require__(43);
+	var _AltStore = __webpack_require__(6);
 
 	var _AltStore2 = _interopRequireWildcard(_AltStore);
 
-	var _getInternalMethods = __webpack_require__(20);
+	var _getInternalMethods = __webpack_require__(4);
 
-	var _StoreMixinEssentials$StoreMixinListeners = __webpack_require__(46);
+	var _StoreMixinEssentials$StoreMixinListeners = __webpack_require__(9);
 
-	var _ALL_LISTENERS$LIFECYCLE$LISTENERS$PUBLIC_METHODS$STATE_CONTAINER = __webpack_require__(6);
+	var _ALL_LISTENERS$LIFECYCLE$LISTENERS$PUBLIC_METHODS$STATE_CONTAINER = __webpack_require__(1);
 
 	function doSetState(store, storeInstance, state) {
 	  if (!state) {
@@ -1256,7 +1219,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 /***/ },
-/* 48 */
+/* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1268,19 +1231,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports['default'] = makeAction;
 
-	var _import = __webpack_require__(6);
+	var _import = __webpack_require__(1);
 
 	var Sym = _interopRequireWildcard(_import);
 
-	var _Symbol = __webpack_require__(8);
+	var _Symbol = __webpack_require__(2);
 
 	var _Symbol2 = _interopRequireWildcard(_Symbol);
 
-	var _AltAction = __webpack_require__(42);
+	var _AltAction = __webpack_require__(5);
 
 	var _AltAction2 = _interopRequireWildcard(_AltAction);
 
-	var _uid = __webpack_require__(20);
+	var _uid = __webpack_require__(4);
 
 	var ACTION_KEY = Sym.ACTION_KEY;
 	var ACTION_HANDLER = Sym.ACTION_HANDLER;
@@ -1319,7 +1282,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 49 */
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1554,7 +1517,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 50 */
+/* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
@@ -1566,11 +1529,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 */
 
-	module.exports.Dispatcher = __webpack_require__(51)
+	module.exports.Dispatcher = __webpack_require__(14)
 
 
 /***/ },
-/* 51 */
+/* 14 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -1587,7 +1550,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	"use strict";
 
-	var invariant = __webpack_require__(52);
+	var invariant = __webpack_require__(15);
 
 	var _lastID = 1;
 	var _prefix = 'ID_';
@@ -1826,7 +1789,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 52 */
+/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/**
