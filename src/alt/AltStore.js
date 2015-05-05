@@ -36,9 +36,8 @@ export default class AltStore {
         model[LIFECYCLE].beforeEach(payload, this[STATE_CONTAINER])
       }
 
+      let result = false
       if (model[LISTENERS][payload.action]) {
-        let result = false
-
         try {
           result = model[LISTENERS][payload.action](payload.data)
         } catch (e) {
@@ -50,13 +49,19 @@ export default class AltStore {
         }
 
         if (result !== false) {
-          this.emitChange()
+          if (result.then && typeof result.then === 'function') {
+            result.then(this.emitChange.bind(this))
+          } else {
+            this.emitChange()
+          }
         }
       }
 
       if (model[LIFECYCLE].afterEach) {
         model[LIFECYCLE].afterEach(payload, this[STATE_CONTAINER])
       }
+
+      return result
     })
 
     if (this[LIFECYCLE].init) {

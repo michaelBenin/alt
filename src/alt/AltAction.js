@@ -12,6 +12,6 @@ export default class AltAction {
   }
 
   dispatch(data) {
-    this.alt.dispatch(this[ACTION_UID], data, this.actionDetails)
+    return this.alt.dispatch(this[ACTION_UID], data, this.actionDetails)
   }
 }
