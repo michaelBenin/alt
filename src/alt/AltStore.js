@@ -14,6 +14,11 @@ const {
 // event emitter instance
 const EE = Symbol()
 
+function isPromise(obj) {
+  return obj && (typeof obj === 'object' || typeof obj === 'function') &&
+    typeof obj.then === 'function'
+}
+
 export default class AltStore {
   constructor(alt, model, state, StoreModel) {
     this[EE] = new EventEmitter()
@@ -49,7 +54,7 @@ export default class AltStore {
         }
 
         if (result !== false) {
-          if (result.then && typeof result.then === 'function') {
+          if (isPromise(result)) {
             result.then(this.emitChange.bind(this))
           } else {
             this.emitChange()
