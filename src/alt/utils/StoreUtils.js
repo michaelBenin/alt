@@ -135,6 +135,10 @@ export function createStoreFromClass(alt, StoreModel, key, ...argsForClass) {
 
   const store = new Store(...argsForClass)
 
+  if (config.datasource) {
+    StoreMixinEssentials.exportAsync.call(Store.prototype, config.datasource)
+  }
+
   storeInstance = assign(
     new AltStore(
       alt,

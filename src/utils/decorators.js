@@ -9,3 +9,11 @@ export function createStore(alt, ...args) {
     return alt.createStore(Store, undefined, ...args)
   }
 }
+
+export function datasource(source) {
+  return function (Store) {
+    Store.config = Store.config || {}
+    Store.config.datasource = source
+    return Store
+  }
+}
