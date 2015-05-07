@@ -4,9 +4,9 @@
   "description": "A flux implementation",
   "main": "lib",
   "dependencies": {
-    "es-symbol": "^1.1.1",
-    "eventemitter3": "^0.1.6",
-    "flux": "^2.0.1"
+    "es-symbol": "1.1.1",
+    "eventemitter3": "0.1.6",
+    "flux": "2.0.3"
   },
   "devDependencies": {
     "babel": "^5.2.13",
